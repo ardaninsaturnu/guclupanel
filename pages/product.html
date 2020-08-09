@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guclu Cadır</title>
+
+
+    <!-------------------------google-fonts------------------->
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-----------------------font awesome--------------------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-----------------------bootstrap-cdn-------------------->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-----------------------normalize css-------------------->
+
+    <link rel="stylesheet" href="../css/normalize.css">
+
+    <!---------------------for desktop style------------------->
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!---------------------for animate.css--------------------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <!---------------------for book----------------------------->
+
+    <link rel="stylesheet" media="(max-width:1366px)" href="../css/book.css">
+
+    <!--------------------for tablet--------------------------->
+
+    <link rel="stylesheet" media="(max-width:768px)" href="../css/tablet.css">
+
+    <!--------------------for mobile--------------------------->
+
+    <link rel="stylesheet" media="(max-width:500px)" href="../css/mobile.css"> 
+
+
+</head>
+<body>
+
+   <!------------------------------preeloader------------------------------>
+
+   <div class="loader-box" id="spinner">
+    <div class="loader"></div>
+  </div>
+
+
+  <!---------------------------header explain----------------------------->
+  <div class="info-header">
+
+    <div class="mail-info book-info">
+        
+            <i class="far fa-envelope"></i>
+        info@guclucadir.com.tr
+        
+        
+    </div>
+<div class="tel-info book-info">
+    <i class="fas fa-phone-alt"></i>  +90 532 599 37 95
+</div>
+
+<div class="adress-info book-info">
+    <i class="fas fa-map-marker-alt"></i>
+    Sanayi Mahallesi 60019 Nolu Cadde No: 35 Şehitkamil – Gaziantep/ TÜRKİYE
+</div>
+
+<div class="language book-info">
+    <button class="language-button"><i class="fas fa-globe-americas"></i>        Language 
+        <i class="fas fa-angle-down"></i>
+    </button>
+    <div class="language-content">
+      <a href="#"><img src="../images/turkey.png" alt="">Türkçe</a>
+      <a href="#"><img src="../images/england.png" alt="">İngilizce</a>
+      
+    </div>
+  </div>
+
+
+</div>
+
+<div class="wrapper-header">
+<header class="header">
+    <!-----------------hamburger menu------------------>
+
+    <div class="hamburger-wrapper">
+        <div id="myNav" class="hamburger">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="hamburger-content">
+                <a href="../index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="productstwo.html">Products</a>
+                <a href="resume.html">Human Resources</a>
+                <a href="contact.html">Contact</a>
+                <a href="" class="shop-button">Go Shopping</a>
+            </div>
+          </div>
+        <span onclick="openNav()">&#9776;</span>
+    </div>
+
+    
+
+    <!-----------------logo------------------>
+
+    <div class="logo animate__animated animate__slideInLeft">
+        <img src="../images/guclu-logo-tr.png" alt="">
+    </div>
+
+    <nav class="navbar-menu animate_animated animate__slideInRight">
+        <a href="../index.html">Home</a>
+        <a href="./aboutus.html">About Us</a>
+        <a href="./productstwo.html">Products</a>
+        <a href="./resume.html">Human Resources</a>
+        <a href="./contact.html">Contact</a>
+        <a href="" class="shop-button">Go Shopping</a>
+    </nav>
+
+    <div class="language-tablet tablet">
+        <button class="language-tablet-button"><i class="fas fa-globe-americas"></i>        Language 
+            <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="language-tablet-content">
+          <a href="#"><img src="../images/turkey.png" alt="">Türkçe</a>
+          <a href="#"><img src="../images/england.png" alt="">İngilizce</a>
+          
+        </div>
+      </div>
+
+
+</header> 
+</div>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="./products.html">Products</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Product</li>
+    </ol>
+  </nav>
+
+  <div class="container">
+      <div class="product-title">
+          <h2>Military Type Tent</h2>
+          
+          <p>GÜÇLÜ Military Tents are erected easily due to their modular structure and offer an effective sheltering area against summer and winter weather conditions.</p>
+          <hr>
+      </div>
+
+      <!-------------------------------product slider------------------------------->
+
+      <main class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Slide One - Set the background image for this slide in the line below -->
+              <div class="carousel-item product-slider active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">First Slide</h2>
+                  <p class="lead">This is a description for the first slide.</p>
+                </div>
+              </div>
+              <!-- Slide Two - Set the background image for this slide in the line below -->
+              <div class="carousel-item product-slider" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">Second Slide</h2>
+                  <p class="lead">This is a description for the second slide.</p>
+                </div>
+              </div>
+              <!-- Slide Three - Set the background image for this slide in the line below -->
+              <div class="carousel-item product-slider" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">Third Slide</h2>
+                  <p class="lead">This is a description for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+          </div>
+    </main>
+
+      <section class="icon-container">
+        
+        <div class="row">
+          <div class="col-md-4">
+            <div class="protect">
+              <h4>Protect</h4>
+              <hr>
+              <div class="p-icons">
+                <img src="../icon/koruma-gunes.png" alt="">
+                <img src="../icon/koruma-kar.png" alt="">
+                <img src="../icon/koruma-uv.png" alt="">
+                <img src="../icon/koruma-yagmur.png" alt="">
+                <img src="../icon/koruma-zip.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="material">
+              <h4>Materials</h4>
+              <hr>
+              <div class="p-icons">
+                <img src="../icon/materyal-alu.png" alt="">
+                <img src="../icon/materyal-yanmaz.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="certification">
+              <h4>Certifications</h4>
+              <hr>
+              <div class="p-icons">
+                <img src="../icon/sertifika-2year.png" alt="">
+                <img src="../icon/sertifika-ce.png" alt="">
+                <img src="../icon/sertifika-patent.png" alt="">
+                <img src="../icon/sertifika-tr.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </section>
+    
+  </div>
+  <section class="p-components-wrapper">
+    <div class="p-components container">
+      
+          <div class="product-single-components">
+
+            <div class="row">
+              <div class="col-md-6">
+                <img src="../images/militarytent.jpg" class="products-image" alt="military" width="100%" height="300px">
+              </div>
+              <div class="col-md-6">
+                <div class="p-product-paragraph">
+                  <h4>Product Information</h4>
+                  <hr>
+                  <div class="product-information">
+                    <strong>Kullanım Alanları:</strong> 
+                    <p>Military Sheltering and Living Tents</p> 
+                  </div>
+                  <div class="product-information">
+                    <strong>Ölçüler:</strong>
+                    <p>6 ile 150m2 arası</p> 
+                  </div>
+                  <div class="product-information">
+                    <strong>Ürün Birleşimi:</strong>
+                    <p>Alüminyum, Çelik, Yalıtım ve Teknik Kumaş</p>
+                    
+                  </div>
+                  <span>
+                      
+                  </span>  
+                  <span>
+                     
+                  </span> 
+                   
+                </div>
+        
+        </div>
+        </div>
+        
+        </div>
+        <div class="product-size-tables">
+          <h4>Product Sizes</h4>
+          <hr>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Product Codes</th>
+                <th scope="col">Width</th>
+                <th scope="col">Length</th>
+                <th scope="col">Height</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">TSK3000</th>
+                <td>300cm</td>
+                <td>Optionally</td>
+                <td>Optionally</td>
+              </tr>
+              <tr>
+                <th scope="row">TSK4000</th>
+                <td>400cm</td>
+                <td>Optionally</td>
+                <td>Optionally</td>
+              </tr>
+              <tr>
+                <th scope="row">TSK5000</th>
+                <td>500cm</td>
+                <td>Optionally</td>
+                <td>Optionally</td>
+              </tr>
+              <tr>
+                <th scope="row">TSK6000</th>
+                <td>600cm</td>
+                <td>Optionally</td>
+                <td>Optionally</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <main class="colorschemes">
+          <h4>Colors</h4>
+          <hr>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="colors">
+                
+                <div class="color-box">
+                    <div class="colorpick pink"></div>
+                    <div class="color-text">
+                      <h5>Fairy Pink</h5>
+                      <p>#ff67b3</p>
+                    </div>
+                    
+                </div>
+                <div class="color-box">
+                  <div class="colorpick blue"></div>
+                  <div class="color-text">
+                    <h5>Ocean</h5>
+                    <p>#5c88ff</p>
+                  </div>
+                </div>
+                <div class="color-box">
+                  <div class="colorpick orange"></div>
+                    <div class="color-text">
+                      <h5>Light Salmon</h5>
+                      <p>#ffa07a</p>
+                    </div>
+                </div>
+                <div class="color-box">
+                  <div class="colorpick asia"></div>
+                    <div class="color-text">
+                      <h5>Asia </h5>
+                      <p>#ff67b3</p>
+                    </div>
+                </div>
+                <div class="color-box">
+                  <div class="colorpick duncan"></div>
+                    <div class="color-text">
+                      <h5>Green Dream</h5>
+                      <p>#ff67b3</p>
+                    </div>
+                </div>
+                <div class="color-box">
+                  <div class="colorpick gray"></div>
+                    <div class="color-text">
+                      <h5>Shadows</h5>
+                      <p>#ff67b3</p>
+                    </div>
+                </div>
+                <div class="color-box">
+                  <div class="colorpick purple"></div>
+                    <div class="color-text">
+                      <h5>Berry</h5>
+                      <p>#ff67b3</p>
+                    </div>
+                </div>
+                <div class="color-box">
+                  <div class="colorpick brick"></div>
+                    <div class="color-text">
+                      <h5>Brick</h5>
+                      <p>#ff67b3</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="pallette">
+                <div class="card">
+                  <div class="card-body text-center d-flex justify-content-center align-items-center flex-column">
+                    <p>Change actual color and check how every color representation is described in the list</p>
+                    <button id="color-picker-6" class="btn btn-primary btn-sm">Color Picker</button>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <div class="card-body text-center d-flex justify-content-center align-items-center flex-column">
+                    <ul class="list-group list-group-flush w-100">
+                      <li class="list-group-item" id="hex"></li>
+                      <li class="list-group-item" id="rgba"></li>
+                      <li class="list-group-item" id="hsla"></li>
+                      <li class="list-group-item" id="hsva"></li>
+                      <li class="list-group-item" id="cmyk"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      
+      
+        
+          
+</section>
+<!-----------------------------footer------------------------->
+
+<footer class="footer">
+  <div class="footer-content">
+
+      <!----------footer info---------->
+      <div class="footer-section about">
+              <img src="../images/guclu-logo-tr.png" alt="">
+              <br>
+              <p>Guclu Cadir Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptas. Lorem ipsum dolor sit amet. </p>
+              <span><i class="fas fa-phone-alt"></i>  +90 532 599 37 95</span>
+              <span><i class="far fa-envelope"></i>
+                  info@guclucadir.com.tr</span>
+              <span><i class="fas fa-map-marker-alt"></i>
+                  Sanayi Mahallesi 60019 Nolu Cadde No: 35 Şehitkamil – Gaziantep/ TÜRKİYE</span>    
+          
+      </div>
+
+      <!-------footer links area----------->
+      <div class="footer-section links">
+          <div class="linkhover-wrap">
+              <h4>Quick Links</h4>
+          <hr>
+          <ul class="linkhover">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Shopping</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Contact</a></li>
+          </ul>
+          </div>
+          <div class="social-wrapper">
+              <h4>Social Media</h4>
+          <hr>
+          <ul class="social">
+              <li><a href="www.twitter.com" target="_blank" class="twitter" ><i class="fab fa-twitter"></i>Twitter</a></li>
+              <li><a href="www.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook"></i>Facebook</a></li>
+              <li><a href="www.youtube.com" target="_blank" class="youtube"><i class="fab fa-youtube"></i>Youtube</a></li>
+          </ul>
+          </div>
+         
+      </div>
+
+      <!------footer contact form--------->
+      <div class="footer-section footer-form">
+          <h4>Contact Us</h4>
+          <hr>
+          <form action="">
+              <input type="text" placeholder="full name">
+              <input type="text" placeholder="mail">
+              <textarea name="footer-message" id="footer-message" cols="30" rows="5" placeholder="Mesajınızı Yazınız.."></textarea>
+              <input type="submit" value="Send">
+          </form>
+      </div>
+  </div>
+      
+      <!----------footer bottom----------->    
+  <div class="footer-bottom">
+      &copy; 2020 <a href="https://www.workuptogether.com/" target="_blank">www.workuptogether.com</a> Designed by ardaninsaturnu
+  </div>
+</footer>
+
+
+
+<!----------------------bootstrap jquery------------------->
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!------------------------js dosyaları-------------------->
+
+<script src="../js/saturn.js"></script>
+</body>
+</html>

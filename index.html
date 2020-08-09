@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <!-------------------------------meta descriptions------------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guclu Cadır</title>
+
+
+      <!-------------------------google-fonts------------------->
+
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-----------------------font awesome--------------------->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-----------------------bootstrap-cdn-------------------->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!---------------------for desktop style------------------->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!---------------------for animate.css--------------------->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
+    <!---------------------for book----------------------------->
+
+    <link rel="stylesheet" media="(max-width:1366px)" href="./css/book.css">
+
+    <!--------------------for tablet--------------------------->
+
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+
+    <!--------------------for mobile--------------------------->
+
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css"> 
+
+</head>
+<body>
+
+    <!------------------------------preeloader------------------------------>
+
+    <div class="loader-box" id="spinner">
+        <div class="loader"></div>
+    </div>
+
+    <!---------------------------header explain----------------------------->
+    <div class="info-header">
+
+            <div class="mail-info book-info">
+                
+                    <i class="far fa-envelope"></i>
+                info@guclucadir.com.tr
+                
+                
+            </div>
+        <div class="tel-info book-info">
+            <i class="fas fa-phone-alt"></i>  +90 532 599 37 95
+        </div>
+
+        <div class="adress-info book-info">
+            <i class="fas fa-map-marker-alt"></i>
+            Sanayi Mahallesi 60019 Nolu Cadde No: 35 Şehitkamil – Gaziantep/ TÜRKİYE
+        </div>
+        
+        <div class="language book-info">
+            <button class="language-button"><i class="fas fa-globe-americas"></i>        Language 
+                <i class="fas fa-angle-down"></i>
+            </button>
+            <div class="language-content">
+              <a href="#"><img src="./images/turkey.png" alt="">ispanyolca</a>
+              <a href="#"><img src="./images/england.png" alt="">İngilizce</a>
+              
+            </div>
+          </div>
+        
+        
+    </div>
+
+    <div class="wrapper-header">
+        <header class="header">
+            <!-----------------hamburger menu------------------>
+
+            <div class="hamburger-wrapper">
+                <div id="myNav" class="hamburger">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="hamburger-content">
+                        <a href="./index.html">Home</a>
+                        <a href="./pages/aboutus.html">About Us</a>
+                        <a href="./pages/productstwo.html">Products</a>
+                        <a href="./pages/resume.html">Human Resources</a>
+                        <a href="./pages/contact.html">Contact</a>
+                        <a href="" class="shop-button">Go Shopping</a>
+                    </div>
+                  </div>
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+
+            
+
+            <!-----------------logo------------------>
+
+            <div class="logo animate__animated animate__slideInLeft">
+                <img src="./images/guclu-logo-tr.png" alt="">
+            </div>
+    
+            <nav class="navbar-menu animate_animated animate__slideInRight">
+                <a href="./index.html">Home</a>
+                <a href="./pages/aboutus.html">About Us</a>
+                <a href="./pages/productstwo.html">Products</a>
+                <a href="./pages/resume.html">Human Resources</a>
+                <a href="./pages/contact.html">Contact</a>
+                <a href="" class="shop-button">Go Shopping</a>
+            </nav>
+
+            <div class="language-tablet tablet">
+                <button class="language-tablet-button"><i class="fas fa-globe-americas"></i>        Language 
+                    <i class="fas fa-angle-down"></i>
+                </button>
+                <div class="language-tablet-content">
+                  <a href="#"><img src="./images/turkey.png" alt="">Türkçe</a>
+                  <a href="#"><img src="./images/england.png" alt="">İngilizce</a>
+                  
+                </div>
+              </div>
+
+
+        </header> 
+    </div>
+    <main class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Slide One - Set the background image for this slide in the line below -->
+              <div class="carousel-item product-slider active" style="background-image: url('https://images.unsplash.com/photo-1587364467783-48dfba5e3219?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2075&q=80')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">First Slide</h2>
+                  <p class="lead">This is a description for the first slide.</p>
+                </div>
+              </div>
+              <!-- Slide Two - Set the background image for this slide in the line below -->
+              <div class="carousel-item product-slider" style="background-image: url('https://images.unsplash.com/photo-1544529794-24c664a7d481?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">Second Slide</h2>
+                  <p class="lead">This is a description for the second slide.</p>
+                </div>
+              </div>
+              <!-- Slide Three - Set the background image for this slide in the line below -->
+              <div class="carousel-item product-slider" style="background-image: url('https://images.unsplash.com/photo-1559584039-6a7f832b5767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">Third Slide</h2>
+                  <p class="lead">This is a description for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+          </div>
+    </main>
+
+
+    <main class="home">
+        <div class="container text-align-center">
+            
+
+            <h2>Our Progres</h2>
+            <hr>
+
+            <!----------------------component one-------------------------->
+
+            <div class="home-component animate__animated animate__slideInLeft">
+
+                <div class="home-image">
+                    <img src="./images/since1966.png" alt="">
+                </div>
+                
+                    <div class="home-text">
+                        <h4 class="animate__animated animate__zoomIn">We are solving since <strong>1966</strong></h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo adipisci eos tenetur enim, deserunt dolore suscipit consectetur recusandae blanditiis tempore atque voluptates quam consequuntur.
+                    </p>
+                    <button type="button" class="index-button gray">Read More..</button>
+                    </div>
+            </div>
+
+            <!----------------------component two-------------------------->
+
+            <div class="home-component animate__animated animate__slideInRight">
+                <div class="home-text">
+                    <h4 class="animate__animated animate__zoomIn">We are solving since <strong>1966</strong></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo adipisci eos tenetur enim, deserunt dolore suscipit consectetur recusandae blanditiis tempore atque voluptates quam consequuntur.
+                </p>
+                <button type="button" class="index-button gold">Read More..</button>
+                </div>
+                <div class="home-image">
+                    <img src="./images/timeismoney.png" alt="">
+                </div>
+            </div>
+
+            <!----------------------component three-------------------------->
+
+            <div class="home-component animate__animated animate__slideInLeft">
+                <div class="home-image">
+                    <img src="./images/savingtime.png" alt="">
+                </div>
+                
+                    <div class="home-text">
+                        <h4 class="animate__animated animate__zoomIn">We are solving since <strong>1966</strong></h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo adipisci eos tenetur enim, deserunt dolore suscipit consectetur.
+                    </p>
+                    <button type="button" class="index-button red">Read More..</button>
+                    </div>
+            </div>
+                
+               
+        </div>
+    </main>
+    <!---------------------------home page slider----------------------------->
+    
+    <!-----
+    <main class="home">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <!-------------------------carousel one ----------------------------
+
+              <div class="carousel-item slide-one active">
+                <div class="container homepage-carousel">
+                    <div class="row">
+                        <div class="col-md-6 book">
+                            <div class="home-text">
+                                <h1 class="animate__animated animate__zoomIn">We are solving since <strong>1966</strong></h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo adipisci eos tenetur enim, deserunt dolore suscipit consectetur recusandae blanditiis tempore atque voluptates quam consequuntur veniam numquam dolor dignissimos at!
+                            Nam natus ratione explicabo accusamus minus veniam rerum, unde illo dicta sunt ipsam voluptates pariatur sint. 
+                            </p>
+                            <button type="button" class="index-button red">Read More..</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 book">
+                            <div class="img-box">
+                                <img class="bookimage animate__animated animate__zoomIn" src="./images/backbusiness.png" alt="">
+
+                                <img   src="./images/businesshome.png" class="pic-one animate__animated animate__slideInDown" alt="">
+
+                                <img src="./images/paymenttime.png" class="pic-two animate__animated animate__slideInRight" alt="">
+
+                                <img src="./images/businesstime.png" class="pic-three animate__animated animate__slideInLeft" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <!-------------------------carousel two ----------------------------
+
+              <div class="carousel-item slide-two">
+                <div class="container homepage-carousel">
+                    <div class="row">
+                        <div class="col-md-6 book">
+                            <div class="home-text">
+                                <h1 class="animate__animated animate__zoomIn">Fastly Montage and Createment</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo adipisci eos tenetur enim, deserunt dolore suscipit consectetur recusandae blanditiis tempore atque voluptates quam consequuntur veniam numquam dolor dignissimos at!
+                            Nam natus ratione explicabo accusamus minus veniam rerum, unde illo dicta sunt ipsam voluptates pariatur sint. 
+                            </p>
+                            <button type="button" class="index-button gold">Read More..</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 book">
+                            <div class="img-box">
+                                <img class="bookimage animate__animated animate__zoomIn" src="./images/backbusiness.png" alt="">
+
+                                <img src="./images/businesshome.png" class="pic-one animate__animated animate__slideInLeft" alt="">
+
+                                <img src="./images/paymenttime.png" class="pic-two animate__animated animate__slideInDown" alt="">
+
+                                <img src="./images/businesstime.png" class="pic-three animate__animated animate__slideInRight" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-------------------------carousel three ----------------------------
+              
+              <div class="carousel-item slide-three">
+                <div class="container homepage-carousel">
+                    <div class="row">
+                        <div class="col-md-6 book">
+                            <div class="home-text">
+                                <h1 class="animate__animated animate__zoomIn">Take Your Time and Money</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo adipisci eos tenetur enim, deserunt dolore suscipit consectetur recusandae blanditiis tempore atque voluptates quam consequuntur veniam numquam dolor dignissimos at!
+                            Nam natus ratione explicabo accusamus minus veniam rerum, unde illo dicta sunt ipsam voluptates pariatur sint. 
+                            </p>
+                            <button type="button" class="index-button gray">Read More..</button>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6 book">
+                            <div class="img-box">
+                                <img class="bookimage animate__animated animate__zoomIn" src="./images/backbusiness.png" alt="">
+
+                                <img src="./images/businesshome.png" class="pic-one animate__animated animate__slideInRight" alt="">
+
+                                <img src="./images/paymenttime.png" class="pic-two animate__animated animate__slideInLeft" alt="">
+
+                                <img src="./images/businesstime.png" class="pic-three animate__animated animate__slideInDown" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+          </div>
+    </main>
+    
+
+    --->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <!----------footer info---------->
+            <div class="footer-section about">
+                    <img src="./images/guclu-logo-tr.png" alt="">
+                    <br>
+                    <p>Guclu Cadir Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptas. Lorem ipsum dolor sit amet. </p>
+                    <span><i class="fas fa-phone-alt"></i>  +90 532 599 37 95</span>
+                    <span><i class="far fa-envelope"></i>
+                        info@guclucadir.com.tr</span>
+                    <span><i class="fas fa-map-marker-alt"></i>
+                        Sanayi Mahallesi 60019 Nolu Cadde No: 35 Şehitkamil – Gaziantep/ TÜRKİYE</span>    
+                
+            </div>
+
+            <!-------footer links area----------->
+            <div class="footer-section links">
+                <div class="linkhover-wrap">
+                    <h4>Quick Links</h4>
+                <hr>
+                <ul class="linkhover">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Shopping</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                </div>
+                <div class="social-wrapper">
+                    <h4>Social Media</h4>
+                <hr>
+                <ul class="social">
+                    <li><a href="www.twitter.com" target="_blank" class="twitter" ><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="www.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="www.youtube.com" target="_blank" class="youtube"><i class="fab fa-youtube"></i>Youtube</a></li>
+                </ul>
+                </div>
+               
+            </div>
+
+            <!------footer contact form--------->
+            <div class="footer-section footer-form">
+                <h4>Contact Us</h4>
+                <hr>
+                <form action="">
+                    <input type="text" placeholder="full name">
+                    <input type="text" placeholder="mail">
+                    <textarea name="footer-message" id="footer-message" cols="30" rows="5" placeholder="Mesajınızı Yazınız.."></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+            
+            <!----------footer bottom----------->    
+        <div class="footer-bottom">
+            &copy; 2020 <a href="https://www.workuptogether.com/" target="_blank">www.workuptogether.com</a> Designed by ardaninsaturnu
+        </div>
+    </footer>
+
+
+
+    <!----------------------bootstrap jquery------------------->
+
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!------------------------js dosyaları-------------------->
+    
+    <script src="./js/saturn.js"></script>
+   
+
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(218, 218, 218);
+    
+
+}
+
+
+p {
+    margin-top: 0;
+margin-bottom: 0rem;
+color: #9d9d9d;
+}
+
+
+
+
+
+
+
+/*------------------------------------------header style----------------------------------------*/
+
+.dashboardHeader {
+    width: 100%;
+    height:10vh ;
+    background-color: rgb(255, 83, 83);
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+.header-left,.header-right {
+    height: 100%;
+    width: 50%;
+}
+
+
+.logo {
+        width: 20%;
+        display: flex;
+        align-items: center;
+}
+
+.logo-image {
+        width: 40%;
+margin-left: 3rem;
+}
+
+
+/*--------------------------------------------wrapper--------------------------------------------*/
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0vh;
+    top: 10vh;
+    overflow: hidden;
+    
+}
+
+
+/*----------------------------------------sidebar style-----------------------------------------*/
+
+
+.sidebar {
+    position: fixed;
+    top: 10vh;
+    width: 200px;
+    height: 90vh;
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+    
+    
+}
+
+
+
+/*-------------------------------------product-page--------------------------------------------*/
+
+.product {
+    width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top:10vh;
+      margin-left: 200px;
+
+}
+
+.add-product-button {
+    width: 90%;
+margin: 3rem auto;
+}
+
+.add-product {
+    border: 0.1px solid aliceblue;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+
+.product-list {
+    width: 90%;
+    
+    height: auto;
+    overflow: hidden;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+margin: 0 auto;
+align-items: center;
+
+}
+
+.product-item {
+    width: 95%;
+    display: flex;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom : 0.5rem
+}
+
+.product-item>*{
+    
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-list .product-image {
+    
+    width: 10%;
+}
+
+.product-list .product-image img {
+    width: 100%;
+    
+}
+
+.product-list .product-title {
+    width: 20%;
+}
+
+.product-list .product-description {
+    width: 50%;
+}
+
+.product-list .product-edit {
+    width: 10%;
+    font-size: 1.2rem;
+}
+
+
+
+/*-------------------------------prev-next icons-----------------------------------*/
+
+.product .next-page {
+    display: flex;
+justify-content: center;
+margin: 1rem;
+
+}
+
+.next-page>* {
+    margin: 0.3rem;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #adadad;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+
+  /*----------------------------------------addForm----------------------------------------------*/
+
+  .addForm {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top:10vh;
+      margin-left: 200px;
+
+      
+  }
+
+  .addForm form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .addForm form label {
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: rgb(143, 143, 143);
+  }
+
+ .addForm form label textarea {
+      padding: 0.5rem 1rem;
+      border: 0.1rem solid rgb(185, 185, 185);
+      border-radius: 0.5rem;
+      margin: 0.5rem;
+  }
+
+  .addForm form label input {
+      padding: 0.5rem 1rem;
+      border: 0.1rem solid rgb(180, 180, 180);
+      border-radius: 0.5rem;
+      margin: 0.5rem;
+  }

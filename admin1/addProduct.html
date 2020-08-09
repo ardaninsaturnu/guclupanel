@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!------------------------title------------------------->
+
+    <title>Wut Admin Panel</title>
+
+    <!-------------------------google-fonts------------------->
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-----------------------font awesome--------------------->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-----------------------bootstrap-cdn-------------------->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!---------------------css links------------------------>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!----------------------------------------------------header-------------------------------------------------> 
+ 
+    <header class="dashboardHeader">
+        <div class="header-left">
+             <div class="logo">
+                 <img src="./assets/images/wutlogo@2x.png" alt="" class="logo-image" >
+             </div>
+        </div>
+        <div class="header-right"></div>
+     </header>
+ 
+     <!-------------------------------------------------sidebar------------------------------------------------->
+     
+     <div class="wrapper">
+         <main class="sidebar">
+             <div class="menu-list">
+                 <div class="menu-list-item">
+                     <i class="fas fa-home"></i>
+                     <a href="">Dashboard</a>
+                 </div>
+                 <div class="menu-list-item">
+                     <i class="fab fa-artstation"></i>
+                     <a href="">Products</a>
+                 </div>
+             </div>
+         </main>
+         
+
+    <!--------------------------------------------------add product--------------------------------------------->
+
+         <main class="addForm">
+             <form action="">
+                 <!----------------title and description------------->
+                 <h5>Title and Description</h5>
+                 <hr>
+
+                 <label for="">Title :
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+
+                 <label for="">Description :
+                    <textarea name="description" id="description" cols="10" rows="5"></textarea>
+                 </label>
+
+                 <!----------------image slider------------------------>
+
+                 <h5>Image Slider</h5>
+                 <hr>
+
+                 <label for="imageOne">
+
+                    <input type="file" name="imageone" id="imageOne">
+                    <input type="text" name="imageOneTitle" id="imageOneTitle" placeholder="Image Title">
+
+                 </label>
+                 <label for="imageOne">
+
+                    <input type="file" name="imageTwo" id="imageTwo">
+                    <input type="text" name="imageTwoTitle" id="imageTwoTitle" placeholder="Image Title">
+
+                 </label>
+                 <label for="imageOne">
+
+                    <input type="file" name="imageTwo" id="imageTwo">
+                    <input type="text" name="imageTwoTitle" id="imageTwoTitle" placeholder="Image Title">
+
+                 </label>
+
+                 <!-----------------product info------------------------------>
+
+                 <h5>Product Information</h5>
+                 <hr>
+
+                 <label for="">usages of areas
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+                 <label for="">sizes
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+                 <label for="">product molecul
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+
+                 <h5>Product Sizes</h5>
+                 <hr>
+
+                 <label for="">Products Codes
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+                 <label for="">With
+                    <input type="number" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+                 <label for="">Length
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+                 <label for="">Height
+                    <input type="text" name="title" placeholder="title" aria-placeholder="">
+                 </label>
+                 
+                 
+             </form>
+         </main>
+
+        </div>     
+   
